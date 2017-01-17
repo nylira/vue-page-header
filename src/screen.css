@@ -1,0 +1,53 @@
+.pz-page-header {
+  position: relative;
+  border-bottom: 1px dotted #ddd;
+}
+.pz-page-header .pz-page-header-container {
+  margin: 0 auto;
+  padding: 1.5em 1em;
+  max-width: 48em;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.pz-page-header .title {
+  font-size: 2em;
+  line-height: 1.25;
+  color: #000;
+  font-weight: 500;
+}
+.pz-page-header .subtitle {
+  color: #999;
+  margin-top: 0.5em;
+  font-size: 0.875em;
+}
+.pz-page-header .subtitle strong {
+  font-weight: 500;
+}
+.pz-page-header.pz-page-header-default .pz-page-header-container {
+  align-items: center;
+}
+.pz-page-header.pz-page-header-center .pz-page-header-container {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+@media screen and (min-width: 360px) {
+  .pz-page-header .subtitle {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 720px) {
+  .pz-page-header .pz-page-header-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .pz-page-header .title {
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 960px) {
+  .pz-page-header .pz-page-header-container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
