@@ -55,6 +55,7 @@
   }
 }@media screen and (min-width: 960px) {
   .pz-page-header .pz-page-header-container {
+    padding-top: 3em;
     padding-bottom: 3em;
   }
 }
