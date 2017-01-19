@@ -15,8 +15,8 @@ export default {
       let value = 'pz-page-header'
       if (this.type === 'center') {
         value += ' pz-page-header-center'
-      } else if (this.type === 'wide') {
-        value += ' pz-page-header-wide'
+      } else if (this.type === 'split') {
+        value += ' pz-page-header-split'
       } else {
         value += ' pz-page-header-default '
       }

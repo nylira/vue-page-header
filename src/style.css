@@ -25,10 +25,11 @@
 }
 .pz-page-header .subtitle a {
   color: #999;
-  text-decoration: underline;
+  border-bottom: 2px solid #999;
 }
 .pz-page-header .subtitle a:hover {
-  color: #09c;
+  color: #07e;
+  border-bottom-color: #07e;
 }
 .pz-page-header .subtitle strong {
   font-weight: 500;
@@ -53,9 +54,13 @@
   .pz-page-header .subtitle {
     font-size: 1.5rem;
   }
-}@media screen and (min-width: 960px) {
+}
+@media screen and (min-width: 960px) {
   .pz-page-header .pz-page-header-container {
     padding-top: 3em;
     padding-bottom: 3em;
+  }
+  .pz-page-header.pz-page-header-split .pz-page-header-container {
+    padding: 3em;
   }
 }
