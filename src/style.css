@@ -21,11 +21,11 @@
   margin-top: 0.5em;
   font-size: 1.25em;
   font-weight: 300;
-  line-height: 1.22;
+  line-height: 1.25;
 }
 .pz-page-header .subtitle a {
   color: #999;
-  text-decoration: underline;
+  border-bottom: 1px solid #999;
 }
 .pz-page-header .subtitle strong {
   font-weight: 500;
@@ -49,11 +49,5 @@
   }
   .pz-page-header .subtitle {
     font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 960px) {
-  .pz-page-header .pz-page-header-container {
-    padding-top: 3em;
-    padding-bottom: 3em;
   }
 }
