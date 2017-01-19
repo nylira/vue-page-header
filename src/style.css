@@ -11,14 +11,16 @@
 }
 .pz-page-header .title {
   font-size: 2em;
-  line-height: 1.25;
+  line-height: 1.04;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: -.028em;
 }
 .pz-page-header .subtitle {
   color: #999;
   margin-top: 0.5em;
-  font-size: 0.875em;
+  font-size: 1.125em;
+  font-weight: 300;
 }
 .pz-page-header .subtitle strong {
   font-weight: 500;
