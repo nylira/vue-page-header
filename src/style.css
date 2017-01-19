@@ -14,7 +14,7 @@
   line-height: 1.04;
   color: #000;
   font-weight: 600;
-  letter-spacing: -.028em;
+  /* letter-spacing: -.028em; */
 }
 .pz-page-header .subtitle {
   color: #999;
