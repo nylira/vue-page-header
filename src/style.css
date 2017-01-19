@@ -25,7 +25,10 @@
 }
 .pz-page-header .subtitle a {
   color: #999;
-  border-bottom: 1px solid #999;
+  text-decoration: underline;
+}
+.pz-page-header .subtitle a:hover {
+  color: #09c;
 }
 .pz-page-header .subtitle strong {
   font-weight: 500;
@@ -49,5 +52,9 @@
   }
   .pz-page-header .subtitle {
     font-size: 1.5rem;
+  }
+}@media screen and (min-width: 960px) {
+  .pz-page-header .pz-page-header-container {
+    padding-bottom: 3em;
   }
 }
