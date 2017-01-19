@@ -4,8 +4,8 @@
 }
 .pz-page-header .pz-page-header-container {
   margin: 0 auto;
-  padding: 1.5em 1em;
-  max-width: 48em;
+  padding: 1.5em 1.25rem;
+  max-width: 740px;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -33,7 +33,7 @@
   font-weight: 500;
 }
 .pz-page-header.pz-page-header-default .pz-page-header-container {
-  align-items: center;
+  align-items: flex-start;
 }
 .pz-page-header.pz-page-header-center .pz-page-header-container {
   align-items: center;
@@ -51,7 +51,10 @@
     padding-right: 1.5em;
   }
   .pz-page-header .title {
-    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  .pz-page-header .subtitle {
+    font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 960px) {
