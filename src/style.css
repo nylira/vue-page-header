@@ -18,12 +18,10 @@
 }
 .pz-page-header .subtitle {
   color: #999;
-  margin-top: 0.5rem;
-
+  margin-top: 0.5em;
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.22;
-  letter-spacing: -.022em;
 }
 .pz-page-header .subtitle a {
   color: #999;
@@ -46,10 +44,6 @@
   }
 }
 @media screen and (min-width: 720px) {
-  .pz-page-header .pz-page-header-container {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
   .pz-page-header .title {
     font-size: 2.5rem;
   }
