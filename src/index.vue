@@ -22,7 +22,7 @@ export default {
           value += 'pz-page-header-default'
       }
 
-      if (this.style === 'tendermint') {
+      if (this.headerStyle === 'tendermint') {
         value += ' pz-page-header-tendermint'
       }
 
