@@ -12,7 +12,7 @@ export default {
   name: 'pz-page-header',
   computed: {
     headerClass () {
-      let value = 'pz-page-header'
+      let value = 'pz-page-header '
       switch (this.type) {
         case 'center':
           value += 'pz-page-header-center'; break
