@@ -3,6 +3,7 @@
     <div class="pz-page-header-container">
       <h1 class="title">{{ title }}</h1>
       <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
+      <slot></slot>
     </div>
   </header>
 </template>
