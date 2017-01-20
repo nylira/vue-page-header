@@ -86,5 +86,13 @@
   }
   .pz-page-header.pz-page-header-split .pz-page-header-container {
     padding: 3em;
+    text-align: left;
+  }
+  .pz-page-header.pz-page-header-split .title {
+    font-size: 2rem;
+  }
+  .pz-page-header.pz-page-header-split .subtitle {
+    font-size 1.25rem
+    letter-spacing 0.02em
   }
 }
