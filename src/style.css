@@ -59,8 +59,9 @@
 }
 .pz-page-header.pz-page-header-tendermint .subtitle a {
   color: hsl(210, 70%, 70%);
-  background: hsla(0,0,0,0.2);
+  background: hsla(0,0%,0%,0.2);
   padding: 0 0.25rem;
+  text-decoration: none;
 }
 .pz-page-header.pz-page-header-tendermint .subtitle a:hover {
   color: #fff;
