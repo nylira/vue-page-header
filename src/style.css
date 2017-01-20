@@ -42,6 +42,29 @@
   justify-content: center;
   align-content: center;
 }
+
+.pz-page-header.pz-page-header-tendermint {
+  background: hsla(210, 70%, 13%)
+}
+.pz-page-header.pz-page-header-tendermint h1 {
+  color: hsla(210, 70%, 34%)
+}
+.pz-page-header.pz-page-header-tendermint p {
+  color: hsla(210, 70%, 27%)
+}
+.pz-page-header.pz-page-header-tendermint p strong {
+  font-weight: 500;
+  color: hsla(210, 70%, 30%)
+}
+.pz-page-header.pz-page-header-tendermint p a {
+  color: hsla(210, 70%, 32%)
+  background: hsla(0,0,0,0.2);
+  padding: 0 0.25rem;
+}
+.pz-page-header.pz-page-header-tendermint p a:hover {
+  color: #fff;
+}
+
 @media screen and (min-width: 360px) {
   .pz-page-header .subtitle {
     font-size: 1em;

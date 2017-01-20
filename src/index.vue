@@ -13,17 +13,23 @@ export default {
   computed: {
     headerClass () {
       let value = 'pz-page-header'
-      if (this.type === 'center') {
-        value += ' pz-page-header-center'
-      } else if (this.type === 'split') {
-        value += ' pz-page-header-split'
-      } else {
-        value += ' pz-page-header-default '
+      switch (this.type) {
+        case 'center':
+          value += 'pz-page-header-center'; break
+        case 'split':
+          value += 'pz-page-header-split'; break
+        default:
+          value += 'pz-page-header-default'
       }
+
+      if (this.style === 'tendermint') {
+        value += ' pz-page-header-tendermint'
+      }
+
       return value
     }
   },
-  props: ['title', 'subtitle', 'type']
+  props: ['title', 'subtitle', 'type', 'style']
 }
 </script>
 
