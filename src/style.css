@@ -47,17 +47,17 @@
   background: hsl(210, 70%, 13%);
 }
 .pz-page-header.pz-page-header-tendermint .title {
-  color: hsl(210, 70%, 34%);
+  color: hsl(210, 70%, 90%);
 }
 .pz-page-header.pz-page-header-tendermint .subtitle {
-  color: hsl(210, 70%, 27%);
+  color: hsl(210, 70%, 50%);
 }
 .pz-page-header.pz-page-header-tendermint .subtitle strong {
   font-weight: 500;
-  color: hsl(210, 70%, 30%);
+  color: hsl(210, 70%, 60%);
 }
 .pz-page-header.pz-page-header-tendermint .subtitle a {
-  color: hsl(210, 70%, 32%);
+  color: hsl(210, 70%, 70%);
   background: hsla(0,0,0,0.2);
   padding: 0 0.25rem;
 }
