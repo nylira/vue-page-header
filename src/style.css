@@ -8,7 +8,6 @@
   max-width: 740px;
   display: flex;
   flex-flow: column nowrap;
-  text-align: center;
 }
 .pz-page-header .title {
   font-size: 2em;
@@ -42,6 +41,7 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 
 .pz-page-header.pz-page-header-tendermint {
