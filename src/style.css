@@ -92,7 +92,7 @@
     font-size: 2rem;
   }
   .pz-page-header.pz-page-header-split .subtitle {
-    font-size 1.25rem
-    letter-spacing 0.02em
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
   }
 }
