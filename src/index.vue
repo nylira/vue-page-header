@@ -29,7 +29,7 @@ export default {
       return value
     }
   },
-  props: ['title', 'subtitle', 'type', 'style']
+  props: ['title', 'subtitle', 'type', 'header-style']
 }
 </script>
 
