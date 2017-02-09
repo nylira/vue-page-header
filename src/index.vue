@@ -1,6 +1,6 @@
 <template>
   <header :class="headerClass">
-    <div class="pz-page-header-container">
+    <div class="ni-page-header-container">
       <h1 class="title">{{ title }}</h1>
       <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
       <slot></slot>
@@ -10,27 +10,27 @@
 
 <script>
 export default {
-  name: 'pz-page-header',
+  name: 'ni-page-header',
   computed: {
     headerClass () {
-      let value = 'pz-page-header '
+      let value = 'ni-page-header '
       switch (this.type) {
         case 'center':
-          value += 'pz-page-header-center'; break
+          value += 'ni-page-header-center'; break
         case 'split':
-          value += 'pz-page-header-split'; break
+          value += 'ni-page-header-split'; break
         default:
-          value += 'pz-page-header-default'
+          value += 'ni-page-header-default'
       }
 
-      if (this.headerStyle === 'tendermint') {
-        value += ' pz-page-header-tendermint'
+      if (this.theme === 'tendermint') {
+        value += ' ni-page-header-theme-tendermint'
       }
 
       return value
     }
   },
-  props: ['title', 'subtitle', 'type', 'header-style']
+  props: ['title', 'subtitle', 'type', 'theme']
 }
 </script>
 
