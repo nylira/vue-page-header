@@ -25,7 +25,7 @@
 }
 .ni-page-header .subtitle a {
   color: #999;
-  border-bottom: 2px solid #999;
+  border-bottom: 1px solid #999;
 }
 .ni-page-header .subtitle a:hover {
   color: #07e;
@@ -59,9 +59,7 @@
 }
 .ni-page-header.ni-page-header-theme-tendermint .subtitle a {
   color: hsl(210, 70%, 70%);
-  background: hsla(0,0%,0%,0.2);
-  padding: 0 0.25rem;
-  text-decoration: none;
+  border-bottom-color: hsl(210, 70%, 50%);
 }
 .ni-page-header.ni-page-header-theme-tendermint .subtitle a:hover {
   color: #fff;
