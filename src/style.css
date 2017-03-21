@@ -82,6 +82,9 @@
   .ni-page-header .ni-page-header-container {
     padding: 3rem;
   }
+  .ni-page-header.ni-page-header-split {
+    border-bottom: none;
+  }
   .ni-page-header.ni-page-header-split .ni-page-header-container {
     padding: 3em;
     text-align: left;
