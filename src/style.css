@@ -2,9 +2,9 @@
   position: relative;
   border-bottom: 1px dotted #ddd;
 }
-.ni-page-header .ni-page-header-container {
+.ni-page-header-container {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.25rem;
   max-width: 48rem;
   display: flex;
   flex-flow: column nowrap;
@@ -65,17 +65,12 @@
 }
 
 @media screen and (min-width: 360px) {
-  .ni-page-header .ni-page-header-container {
-    padding: 1.25rem;
-  }
-}
-@media screen and (min-width: 414px) {
-  .ni-page-header .ni-page-header-container {
+  .ni-page-header-container {
     padding: 1.5rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .ni-page-header .ni-page-header-container {
+  .ni-page-header-container {
     padding: 3rem;
   }
 }
