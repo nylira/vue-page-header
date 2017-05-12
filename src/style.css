@@ -2,7 +2,7 @@
   position: relative;
   border-bottom: 1px dotted #ddd;
 }
-.ni-page-header-container {
+.ni-page-header .ni-page-header-container {
   margin: 0 auto;
   padding: 1.25rem;
   max-width: 48rem;
@@ -11,7 +11,7 @@
 }
 .ni-page-header .title {
   font-size: 2em;
-  line-height: 1.25;
+  line-height: 1;
   color: #000;
   font-weight: 600;
   /* letter-spacing: -.028em; */
@@ -65,12 +65,12 @@
 }
 
 @media screen and (min-width: 360px) {
-  .ni-page-header-container {
+  .ni-page-header .ni-page-header-container {
     padding: 1.5rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .ni-page-header-container {
+  .ni-page-header .ni-page-header-container {
     padding: 3rem;
   }
 }
