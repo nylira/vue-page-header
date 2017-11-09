@@ -1,6 +1,6 @@
 {
   "name": "@nylira/vue-page-header",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Page header component for Vue 2.",
   "main": "index.js",
   "scripts": {

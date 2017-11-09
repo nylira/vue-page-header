@@ -1,11 +1,11 @@
 <template>
-  <header :class="headerClass">
-    <div class="ni-page-header-container">
-      <h1 class="title">{{ title }}</h1>
-      <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
-      <slot></slot>
-    </div>
-  </header>
+<header class="ni-page-header" :class="headerClass">
+  <div class="ni-page-header-container">
+    <h1 class="title">{{ title }}</h1>
+    <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
+    <slot></slot>
+  </div>
+</header>
 </template>
 
 <script>
@@ -13,20 +13,18 @@ export default {
   name: 'ni-page-header',
   computed: {
     headerClass () {
-      let value = 'ni-page-header '
+      let v = ''
       switch (this.type) {
         case 'center':
-          value += 'ni-page-header-center'; break
+          v += 'ni-page-header-center'; break
         case 'split':
-          value += 'ni-page-header-split'; break
+          v += 'ni-page-header-split'; break
         default:
-          value += 'ni-page-header-default'
+          v += 'ni-page-header-default'
       }
-
       if (this.theme === 'tendermint') {
-        value += ' ni-page-header-theme-tendermint'
+        v += ' ni-page-header-theme-tendermint'
       }
-
       return value
     }
   },
@@ -40,16 +38,19 @@ export default {
 .ni-page-header
   position relative
   border-bottom 1px dotted bc
+
   .ni-page-header-container
     padding 1.25rem
     max-width 48rem
     display flex
     flex-flow column nowrap
+
   .title
     font-size 2em
     line-height 1
     color bright
     font-weight 600
+
   .subtitle
     color dim
     margin-top 0.75em
